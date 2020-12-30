@@ -615,7 +615,7 @@ U 1 1 5EE0D9B8
 P 2400 7350
 F 0 "J1" H 2050 8100 50  0000 C CNN
 F 1 "DX07S016JA3" H 2500 8100 50  0000 C CNN
-F 2 "digikey-footprints:USB-C_Female_CX70M-24P1" H 2550 7350 50  0001 C CNN
+F 2 "snapeda:JAE_DX07S016JA1R1500" H 2550 7350 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 2550 7350 50  0001 C CNN
 	1    2400 7350
 	1    0    0    -1  
@@ -638,8 +638,6 @@ Wire Wire Line
 Connection ~ 3100 7550
 Wire Wire Line
 	3500 7350 3700 7350
-Wire Wire Line
-	3850 7050 3600 7050
 Connection ~ 3850 7050
 Wire Wire Line
 	3000 6950 4500 6950
@@ -2371,8 +2369,6 @@ Wire Wire Line
 	14150 4150 14200 4150
 Wire Wire Line
 	14200 4150 14200 4200
-Wire Wire Line
-	3200 7050 3000 7050
 Text Notes 2500 5150 0    50   ~ 0
 Fn
 Wire Wire Line
@@ -3442,4 +3438,6 @@ Wire Wire Line
 	8100 7000 8650 7000
 Wire Wire Line
 	7600 7000 8100 7000
+Wire Wire Line
+	3000 7050 3850 7050
 $EndSCHEMATC
