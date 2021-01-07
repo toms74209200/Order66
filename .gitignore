@@ -14,7 +14,9 @@ _autosave-*
 *.tmp
 *-save.pro
 *-save.kicad_pcb
-fp-info-cache
+*-cache.lib
+*-job.gbrjob
+fp-*
 
 # Autorouter files (exported from Pcbnew)
 *.dsn
