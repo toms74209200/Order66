@@ -24282,7 +24282,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Pin:Pin_D1.0mm_L10.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
 			(at 109.22 242.57 0)
 			(effects
 				(font
@@ -24414,7 +24414,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_Pin:Pin_D1.0mm_L10.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
 			(at 144.78 171.45 0)
 			(effects
 				(font
@@ -24481,7 +24481,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Pin:Pin_D1.0mm_L10.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
 			(at 154.94 201.93 0)
 			(effects
 				(font
@@ -24548,7 +24548,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_Pin:Pin_D1.0mm_L10.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
 			(at 99.06 231.14 0)
 			(effects
 				(font
