@@ -1,0 +1,16 @@
+---
+layout: ../layouts/Layout.astro
+title: Order66 - 日本語入力のための60%キーボード
+---
+import { Image } from 'astro:assets';
+
+import logoOrder66 from './logo_order66.svg';
+import keyboardLayout from './keyboard-layout.png';
+
+<Image src={logoOrder66} alt="Order66" width={keyboardLayout.width}  />
+
+<h1 style="text-align: center; margin-top: 0; margin-bottom: 5rem">Order66 - 日本語入力のための60%キーボード</h1>
+
+## キーマップ
+
+<Image src={keyboardLayout} alt="キーマップ" />
