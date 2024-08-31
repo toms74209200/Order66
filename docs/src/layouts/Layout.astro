@@ -1,5 +1,6 @@
 ---
 import landingImage from '../../public/landingview.webp';
+const landingImageUrl = new URL(landingImage.src, Astro.site);
 ---
 <!DOCTYPE html>
 <html>
@@ -9,7 +10,7 @@ import landingImage from '../../public/landingview.webp';
     <meta property="og:site_name" content="Order66">
     <meta property="og:url" content="https://toms74209200.github.io/Order66">
     <meta property="og:title" content="Order66 - 日本語入力のための60%キーボード">
-    <meta property="og:image" content={landingImage.src}>
+    <meta property="og:image" content={landingImageUrl}>
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@toms74209200">
     <meta name="twitter:title" content="Order66 - 日本語入力のための60%キーボード">
