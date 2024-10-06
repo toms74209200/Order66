@@ -17,6 +17,8 @@ _autosave-*
 *-cache.lib
 *-job.gbrjob
 fp-*
+*-backups
+output/
 
 # Autorouter files (exported from Pcbnew)
 *.dsn
